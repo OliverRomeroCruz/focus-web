@@ -83,7 +83,7 @@ html, body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: 84% center;
   display: block;
 }
 
@@ -399,12 +399,16 @@ html, body {
     --frame-radius: 20px;
   }
 
+  .hero-video {
+    object-position: 84% center;
+  }
+
   .hero-content {
     padding: 2.25rem 2.5rem 2rem 2.5rem;
   }
 
   .hero-editorial-block {
-    max-width: 520px;
+    max-width: 440px;
   }
 
   .hero-title {
@@ -416,7 +420,7 @@ html, body {
   .hero-description {
     font-size: 1.025rem;
     line-height: 1.55;
-    max-width: 480px;
+    max-width: 440px;
     margin-bottom: 1.75rem;
   }
 
@@ -434,16 +438,16 @@ html, body {
     font-size: 0.9375rem;
   }
 
-  /* Fade equilibrado para tablets: cobertura sólida sobre el texto y transición suave al video */
+  /* Fade equilibrado para tablets: deja visible a la cabra a la derecha */
   .hero-fade-scrim {
     background: linear-gradient(
       to right,
       #F3F0E8 0%,
-      #F3F0E8 45%,
-      rgba(243, 240, 232, 0.95) 58%,
-      rgba(243, 240, 232, 0.7) 70%,
-      rgba(243, 240, 232, 0.2) 84%,
-      rgba(243, 240, 232, 0) 95%
+      #F3F0E8 34%,
+      rgba(243, 240, 232, 0.88) 46%,
+      rgba(243, 240, 232, 0.45) 58%,
+      rgba(243, 240, 232, 0.08) 70%,
+      rgba(243, 240, 232, 0) 80%
     );
   }
 
@@ -562,16 +566,21 @@ html, body {
     box-sizing: border-box;
   }
 
+  .hero-video {
+    object-position: 84% 65%;
+  }
+
   /* Fade vertical en móvil para asegurar 100% de contraste de lectura sobre el video */
   .hero-fade-scrim {
     background: linear-gradient(
       to bottom,
-      #F3F0E8 0%,
-      #F3F0E8 48%,
-      rgba(243, 240, 232, 0.94) 64%,
-      rgba(243, 240, 232, 0.7) 78%,
-      rgba(243, 240, 232, 0.25) 92%,
-      rgba(243, 240, 232, 0) 100%
+      rgba(243, 240, 232, 0.98) 0%,
+      rgba(243, 240, 232, 0.92) 28%,
+      rgba(243, 240, 232, 0.55) 42%,
+      rgba(243, 240, 232, 0.08) 55%,
+      rgba(243, 240, 232, 0.04) 75%,
+      rgba(243, 240, 232, 0.5) 90%,
+      rgba(243, 240, 232, 0.92) 100%
     );
   }
 
@@ -647,6 +656,23 @@ html, body {
     --frame-radius: 14px;
   }
 
+  .hero-video {
+    object-position: 84% 65%;
+  }
+
+  .hero-fade-scrim {
+    background: linear-gradient(
+      to bottom,
+      rgba(243, 240, 232, 0.98) 0%,
+      rgba(243, 240, 232, 0.94) 30%,
+      rgba(243, 240, 232, 0.6) 42%,
+      rgba(243, 240, 232, 0.08) 52%,
+      rgba(243, 240, 232, 0.04) 76%,
+      rgba(243, 240, 232, 0.6) 90%,
+      rgba(243, 240, 232, 0.92) 100%
+    );
+  }
+
   .hero-content {
     padding: 0.95rem 0.85rem;
   }
@@ -690,6 +716,10 @@ html, body {
     height: auto;
     min-height: calc(100vh - 12px);
     min-height: calc(100dvh - 12px);
+  }
+
+  .hero-video {
+    object-position: 84% center;
   }
 
   .hero-content {
