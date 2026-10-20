@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad — Focus Goat</title>
+  <meta name="description" content="Política de privacidad oficial de Focus Goat.">
+
+  <!-- Fuentes tipográficas -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Newsreader:ital,wght@1,400&display=swap">
+  <link rel="icon" type="image/png" href="media/logo.png">
+
+  <style>
+    :root {
+      --bg: #0c0d0e;
+      --card-bg: #141518;
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #eaeaea;
+      --text-muted: #999;
+      --accent: #ff6e54;
+      --font-body: 'Instrument Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-serif: 'Newsreader', serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      line-height: 1.7;
+      padding: 2rem 1rem 4rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 3rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 700;
+      font-size: 1.1rem;
+      letter-spacing: 0.04em;
+    }
+
+    .brand img {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+    }
+
+    .btn-back {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      transition: opacity 0.2s ease;
+    }
+
+    .btn-back:hover {
+      opacity: 0.8;
+    }
+
+    .privacy-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2.5rem;
+    }
+
+    @media (max-width: 600px) {
+      .privacy-card {
+        padding: 1.5rem;
+      }
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+
+    .last-updated {
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      margin-bottom: 2rem;
+      display: block;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      margin: 2rem 0 1rem;
+      color: var(--accent);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      color: #d1d5db;
+    }
+
+    ul {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.6rem;
+      color: #d1d5db;
+    }
+
+    strong {
+      color: #fff;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 3rem;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header class="header-nav">
+      <a href="index.html" class="brand">
+        <img src="media/logo.png" alt="Focus Goat Logo">
+        <span>FOCUS GOAT</span>
+      </a>
+      <a href="index.html" class="btn-back">← Volver al inicio</a>
+    </header>
+
+    <main class="privacy-card">
+      <h1>Política de Privacidad</h1>
+      <span class="last-updated">Última actualización: 20 de octubre de 2026</span>
+
+      <p>Focus Goat ("la Extensión") ha sido diseñada con un compromiso inquebrantable hacia la privacidad, la autonomía y el control total del usuario sobre sus datos. Esta política de privacidad describe cómo se gestiona y protege la información al utilizar nuestra extensión y plataforma web.</p>
+
+      <h2>1. Recopilación y Uso de Datos</h2>
+      <p><strong>Focus Goat NO recopila, vende, comparte ni transmite ningún dato personal, financiero ni de navegación a servidores externos.</strong></p>
+      <p>Toda la información necesaria para el funcionamiento de la extensión se guarda de forma <strong>100% local</strong> en tu propio navegador mediante la tecnología <code>chrome.storage.local</code>:</p>
+      <ul>
+        <li><strong>Lista de sitios bloqueados:</strong> Los dominios web que tú decides añadir para evitar distracciones.</li>
+        <li><strong>Rutinas horarias:</strong> Los días y horas en los que deseas que la protección se active automáticamente.</li>
+        <li><strong>Historial de estudio local:</strong> Minutos completados, racha de días consecutivos y nivel de gamificación alcanzado.</li>
+        <li><strong>Preferencias del usuario:</strong> Activación de sonido, modo estricto y retos matemáticos.</li>
+      </ul>
+
+      <h2>2. Permisos Solicitados en Chrome</h2>
+      <p>Para cumplir estrictamente con su función como bloqueador de distracciones, Focus Goat solicita los siguientes permisos:</p>
+      <ul>
+        <li><strong><code>storage</code>:</strong> Guardar tus preferencias y configuraciones en tu equipo local.</li>
+        <li><strong><code>tabs</code>:</strong> Comprobar si la URL de la pestaña abierta coincide con tu lista negra para redirigirte a la pantalla de enfoque, así como cerrar pestañas prohibidas al activar Clean Sweep.</li>
+        <li><strong><code>alarms</code>:</strong> Ejecutar con precisión el temporizador de cuenta atrás y activar las rutinas de estudio programadas.</li>
+        <li><strong><code>notifications</code>:</strong> Mostrar una notificación en el escritorio cuando finaliza tu sesión de concentración.</li>
+        <li><strong><code>offscreen</code>:</strong> Reproducir el tono de finalización de forma limpia bajo el estándar Manifest V3.</li>
+        <li><strong>Permiso de host (<code>&lt;all_urls&gt;</code>):</strong> Permitirte añadir cualquier dominio web personalizado a tu lista negra.</li>
+      </ul>
+
+      <h2>3. Ausencia de Código Remoto</h2>
+      <p>En estricto cumplimiento de las Políticas del Programa para Desarrolladores de Google Chrome Web Store, la extensión no ejecuta scripts remotos ni contiene herramientas de rastreo, telemetría ni analíticas de terceros. Todo el código se ejecuta de forma aislada en tu dispositivo.</p>
+
+      <h2>4. Pagos y Suscripciones</h2>
+      <p>Las compras y suscripciones a Focus Goat PRO se gestionan de forma segura a través de <strong>Gumroad</strong>. Focus Goat no almacena ni tiene acceso a los datos de tu tarjeta bancaria.</p>
+
+      <h2>5. Contacto</h2>
+      <p>Si tienes cualquier consulta sobre esta política de privacidad o sobre el funcionamiento de Focus Goat, puedes ponerte en contacto a través de nuestra cuenta oficial de Instagram <strong>@dumeclick</strong> o a través del repositorio de GitHub del proyecto.</p>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Focus Goat. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
