@@ -2,6 +2,11 @@
 
 Sitio web oficial y página de aterrizaje de **Focus Goat**, la extensión de Google Chrome para máxima concentración, bloqueo de distracciones y rutinas de estudio.
 
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Focus_Goat-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/focus-goat-%E2%80%94-focus-study/lanijjkgnmknlfjnjgfflbpaadhdilmf)
+
+> 🚀 **Extensión Oficial Publicada en Chrome Web Store:**  
+> [Instalar Focus Goat desde Google Chrome Web Store](https://chromewebstore.google.com/detail/focus-goat-%E2%80%94-focus-study/lanijjkgnmknlfjnjgfflbpaadhdilmf)
+
 ---
 
 ## 🌐 Despliegue en Netlify (100% Gratuito)
